@@ -1,0 +1,8 @@
+## Recurrent Neural Networks (RNNs)
+
+RNNs are short for **Recurrent Neural Networks**. They are neural networks that work in a **sequential manner** and are mostly used for **text data**.
+
+### Weaknesses of RNNs:
+- Their main weakness is that **weight decay is harsh**, so the network **forgets old tokens**.
+- To handle long-term dependencies, we often use **LSTMs** or **attention mechanisms**.
+- RNNs are also **very slow**, since data is processed **sequentially**, not in parallel.
