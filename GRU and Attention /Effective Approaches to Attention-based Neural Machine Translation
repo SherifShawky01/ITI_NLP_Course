@@ -1,0 +1,9 @@
+## Effective Approaches to Attention-based Neural Machine Translation (Luong et al., 2015)
+
+- Investigates two types of attention mechanisms:
+  - **Global attention**: attends to all encoder hidden states at each decoding step.
+  - **Local attention**: narrows focus to a window of source positions, either by fixed or predicted alignment.
+- Introduces an **input-feeding** mechanism, where the attention vector is fed back into the decoder at each step to inform future alignment decisions.
+- Experiments show that **local attention with predictive alignment** performs best among the tested variants.
+- Outperforms existing NMT models by improving BLEU scores by up to **5.0 points** and setting a new state-of-the-art in WMT’15 English-German translation.
+- Emphasizes simplicity and computational efficiency while maintaining high-quality translations.
