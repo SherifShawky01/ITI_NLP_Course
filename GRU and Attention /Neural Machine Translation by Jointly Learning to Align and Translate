@@ -1,0 +1,9 @@
+### Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al., 2014)
+
+- Proposes the first **attention-based encoder-decoder architecture**, laying the foundation for modern NMT.
+- Instead of encoding the entire source sentence into a fixed-length vector, the model computes **context vectors** dynamically for each output word.
+- Uses a **soft alignment** mechanism: each decoder step attends to a weighted combination of all source positions.
+- Introduces a bidirectional RNN encoder to capture both past and future source context, improving alignment and translation quality.
+- Significantly improves performance over the basic encoder-decoder model, especially on **long sentences**.
+- The model visually produces intuitive alignment matrices that match human expectations.
+
