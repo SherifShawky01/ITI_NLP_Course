@@ -1,0 +1,8 @@
+**ROUGE (Recall-Oriented Understudy for Gisting Evaluation)** is a family of metrics used to evaluate automatic summarization and translation quality by comparing system outputs with reference texts.
+
+- **ROUGE-N**: Measures n-gram overlap (e.g., ROUGE-1 counts unigram matches).
+- **ROUGE-L**: Based on the **Longest Common Subsequence (LCS)** between the system and reference texts, reflecting sentence-level structure.
+- **ROUGE-S**: Uses **skip-bigrams**, allowing for flexible word matching with gaps.
+- Emphasizes **recall**: how much of the reference content is captured by the system output.
+- Frequently used in **text summarization** but also applicable to **translation**, especially when measuring content coverage rather than exact wording.
+- Unlike **BLEU**, which is more precision-focused, ROUGE is better suited for tasks where covering all key information is more important than exact matches.
